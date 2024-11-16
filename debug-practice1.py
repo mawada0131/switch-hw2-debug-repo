@@ -12,7 +12,7 @@ class Student(Person):
         self.student_id = student_id
         self.courses = []
         self.grades = {}
-        self.attendence = {} 
+        self.attendance = {} 
 
     def enroll(self, course):
         if course not in self.courses:
